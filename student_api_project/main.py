@@ -42,5 +42,5 @@ def search():
 
 @app.get("DELETE /students/{id}")
 def delete():
-   return {"message":"delete to Student API"}
+   return {"message":"delete Student API"}
 
